@@ -17,6 +17,7 @@ public class Client {
 		double total = 0.0d;
 		//		CashSuper csuper = CashFactory.createCashAccept("打8折");
 		CashSuper csuper = CashFactory.createCashAccept("正常收费");
+		//
 		total = csuper.acceptCash(500);
 		System.out.println(total);
 	}
